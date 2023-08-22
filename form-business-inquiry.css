@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  margin: auto;
+  font-family: "Trebuchet MS";
+}
+
+main {
+  background-color: #eeeeee;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+#description {
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px lightgray;
+}
+
+textarea {
+  padding: 10px;
+  margin: 10px;
+  width: 670px;
+  border: solid 1px lightgray;
+  color: grey;
+}
+
+.small-input {
+  width: 320px;
+}
+
+.large-input {
+  width: 670px;
+}
+
+button {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: #ff1694;
+  color: white;
+  font-size: 15px;
+}
